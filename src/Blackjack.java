@@ -50,7 +50,6 @@ public class Blackjack {
                     break;
                 } else {
                     System.out.println("OK, next round.");
-                    bet = 0;
                     playerHand.moveAllToDeck(playingDeck);
                     dealerHand.moveAllToDeck(playingDeck);
                     playingDeck.shuffleDeck();
@@ -98,7 +97,6 @@ public class Blackjack {
                     break;
                 } else {
                     System.out.println("OK, next round.");
-                    bet = 0;
                     playerHand.moveAllToDeck(playingDeck);
                     dealerHand.moveAllToDeck(playingDeck);
                     playingDeck.shuffleDeck();
